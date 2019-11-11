@@ -1,0 +1,338 @@
+* {
+    font-family: monospace;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background: black;
+    justify-content: space-between;
+    height: 220px;
+    width: 100%;
+}
+
+body {
+    background-color: #fbb901;
+}
+
+.loginRoute {
+    color: black;
+}
+
+main {
+    background-color: #fbb901;
+
+    /* display: flex; */
+    /* flex-grow: 1; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+input,
+textarea {
+    background-color: #f6f3a7;
+    border: 2px solid black;
+    margin: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+textarea {
+    background-color: #f6f3a7;
+    height: 150px;
+    width: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.welcomeMessageLetters {
+    font-family: "Saira Stencil One", cursive;
+    color: #fbb901;
+    font-size: 120px;
+}
+
+.welcomeLogo {
+    /* border: 2px solid #black; */
+    margin: 100px;
+    align-items: center;
+}
+
+/* .welcomeLogo:hover {
+    transform: scale(1);
+} */
+.welcome h1 {
+    font-family: "Saira Stencil One", cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: #004d61;
+    font-family: monospace;
+}
+
+a {
+    font-family: "Saira Stencil One", cursive;
+    color: #fbb901;
+    font-size: 22px;
+    margin: 5px;
+}
+
+/* a:hover {
+    transform: scale(1.1);
+    margin: 5px;
+} */
+
+.logo {
+    height: 150px;
+    /* border: 5px solid #black; */
+    margin: 15px;
+}
+
+.profilePicHeader img {
+    height: 150px;
+    /* border: 5px solid #fbb901; */
+    margin: 15px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+    clip-path: polygon(
+        30% 0%,
+        70% 0%,
+        100% 30%,
+        100% 70%,
+        70% 100%,
+        30% 100%,
+        0% 70%,
+        0% 30%
+    );
+}
+
+.profile img {
+    height: 400px;
+    /* border: 5px solid black; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+    clip-path: polygon(
+        30% 0%,
+        70% 0%,
+        100% 30%,
+        100% 70%,
+        70% 100%,
+        30% 100%,
+        0% 70%,
+        0% 30%
+    );
+}
+
+.profile h1 {
+    font-family: "Saira Stencil One", cursive;
+    font-size: 50px;
+    color: black;
+}
+
+.otherProfile h1 {
+    font-family: "Saira Stencil One", cursive;
+    font-size: 50px;
+    color: black;
+}
+
+#friendfinder h1 {
+    font-family: "Saira Stencil One", cursive;
+    font-size: 50px;
+    color: black;
+}
+
+.otherProfile img {
+    height: 400px;
+    /* border: 5px solid black; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+    clip-path: polygon(
+        30% 0%,
+        70% 0%,
+        100% 30%,
+        100% 70%,
+        70% 100%,
+        30% 100%,
+        0% 70%,
+        0% 30%
+    );
+}
+
+img:hover {
+    transform: scale(1.1);
+    margin: 15px;
+}
+
+.findPeople img {
+    height: 400px;
+    /* border: 5px solid black; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+    clip-path: polygon(
+        30% 0%,
+        70% 0%,
+        100% 30%,
+        100% 70%,
+        70% 100%,
+        30% 100%,
+        0% 70%,
+        0% 30%
+    );
+}
+
+.friendsAndWannabes h1 {
+    font-family: "Saira Stencil One", cursive;
+    font-size: 50px;
+    color: black;
+    margin: 20px;
+}
+
+.friends img {
+    margin: 10px;
+    height: 250px;
+    /* border: 5px solid black; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+    clip-path: polygon(
+        30% 0%,
+        70% 0%,
+        100% 30%,
+        100% 70%,
+        70% 100%,
+        30% 100%,
+        0% 70%,
+        0% 30%
+    );
+}
+
+.wannabes img {
+    margin: 10px;
+    height: 250px;
+    /* border: 5px solid black; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+    clip-path: polygon(
+        30% 0%,
+        70% 0%,
+        100% 30%,
+        100% 70%,
+        70% 100%,
+        30% 100%,
+        0% 70%,
+        0% 30%
+    );
+}
+
+.chat-messages {
+    height: 800px;
+    overflow-y: scroll;
+    background-color: #f6f3a7;
+    border: 2px solid #fbb901;
+    margin: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.chat {
+    border: 5px solid #fbb901;
+    margin: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.chatHeather {
+    font-family: "Saira Stencil One", cursive;
+    font-size: 70px;
+    color: black;
+    margin: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px;
+}
+
+.chatBoxFirstLine {
+    display: flex;
+}
+
+/* put the image on a div / span and then force it to fill that element */
+/* and then force the img to be 100%;
+e.g:  */
+
+.chatImageContainer {
+    height: 100px;
+    width: 100px;
+}
+
+.chatImg {
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    clip-path: polygon(
+        30% 0%,
+        70% 0%,
+        100% 30%,
+        100% 70%,
+        70% 100%,
+        30% 100%,
+        0% 70%,
+        0% 30%
+    );
+}
+
+.wannabesList {
+    display: flex;
+}
+
+.friendsList {
+    display: flex;
+}
+
+.chatLetters {
+    font-size: 25px;
+    width: 80%;
+}
+
+button {
+    background-color: black;
+    color: #fbb901;
+    margin: 20px;
+    align-self: center;
+}
+
+.nameInChat {
+    font-family: "Saira Stencil One", cursive;
+    color: black;
+}
